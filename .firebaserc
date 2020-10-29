@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "labo4clase": {
+      "hosting": {
+        "clase6guards": [
+          "labo4clase"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+<div *ngFor="let mensaje of mensajes">
+    <span>{{mensaje.emisor}}</span>--<span>{{mensaje.mensaje}}</span>
+</div>
+<br>
+<br>
+<form>
+    <input type="text" name="emisor" [(ngModel)]="emisor" placeholder="Ingrese su nombre">
+    <input type="text" name="mensaje" [(ngModel)]="mensaje" placeholder="Ingrese su mensaje">
+    <br>
+    <button (click)="Enviar()">Enviar mensaje</button>
+</form>
